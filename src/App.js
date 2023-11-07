@@ -7,6 +7,7 @@ import BlogsDatails from './BlogsDatails';
 import Library from './Library'
 import { useState } from 'react'
 import{BrowserRouter as Router, Route,Switch } from 'react-router-dom';
+import Foter from './Foter';
 
 function App() {
   let [name, setName] = useState('brahim');
@@ -41,6 +42,7 @@ function App() {
         </Route>       
       </Switch>
       </div>
+      <Foter></Foter>
     </div>
     </Router>
   );

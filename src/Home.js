@@ -21,10 +21,7 @@ const Home = () => {
                 </div>
                 <img src={img}></img>
             </div>
-            {error && <div>{error}</div>}
-            {isPending && <div className="loading">loading...</div>}
-            {blogs && <Blogs blogs={blogs} title="Props" />}
-
+            
         </div>
     );
 }
