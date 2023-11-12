@@ -1,10 +1,16 @@
+import im1 from './imgs/gallery-01.png'
+import im2 from './imgs/gallery-02.png'
+import im3 from './imgs/gallery-03.jpg'
+import im4 from './imgs/gallery-04.png'
+import im5 from './imgs/gallery-05.jpg'
+import im6 from './imgs/gallery-06.png'
 export default function Foter() {
     return (
-
+        
         <div class="footer">
         <div class="container">
           <div class="box">
-            <h3>Elzero</h3>
+            <h3>Brahim Rm</h3>
             <ul class="social">
               <li>
                 <a href="#" class="facebook">
@@ -38,7 +44,7 @@ export default function Foter() {
           <div class="box">
             <div class="line">
               <i class="fas fa-map-marker-alt fa-fw"></i>
-              <div class="info">Egypt, Giza, Inside The Sphinx, Room Number 220</div>
+              <div class="info">Algeria, Biskra, Zeribet El ouad, Way number 83</div>
             </div>
             <div class="line">
               <i class="far fa-clock fa-fw"></i>
@@ -47,16 +53,23 @@ export default function Foter() {
             <div class="line">
               <i class="fas fa-phone-volume fa-fw"></i>
               <div class="info">
-                <span>+20123456789</span>
-                <span>+20198765432</span>
+                <span>+213665830677</span>
+                <span>+213665830677</span>
               </div>
             </div>
           </div>
           <div class="box footer-gallery">
-            
+          
+          <img decoding="async" src={im1} alt="" />
+          <img decoding="async" src={im2} alt="" />
+          <img decoding="async" src={im3} alt="" />
+          <img decoding="async" src={im4} alt="" />
+          <img decoding="async" src={im5} alt="" />
+          <img decoding="async" src={im6} alt="" />
+          
           </div>
         </div>
-        <p class="copyright">Made With &lt;3 By Elzero</p>
+        <p class="copyright">Made With &lt;3 By BrahimRm</p>
       </div>
 
     )

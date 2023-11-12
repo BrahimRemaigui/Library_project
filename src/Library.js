@@ -6,8 +6,8 @@ export default function Library() {
     const { data: blogs, isPending, error } = useFetch('http://localhost:8000/blogs');
     return (
 
-        <div className='Home'>
-            <h2>kamel</h2>
+        <div className='container'>
+            <h1>List Of Blogs</h1>
             {error && <div>{error}</div>}
             {isPending && <div className="loading">loading...</div>}
             {blogs && <Blogs blogs={blogs} title="Props" />}

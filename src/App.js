@@ -8,6 +8,7 @@ import Library from './Library'
 import { useState } from 'react'
 import{BrowserRouter as Router, Route,Switch } from 'react-router-dom';
 import Foter from './Foter';
+import Cont from './Cont';
 
 function App() {
   let [name, setName] = useState('brahim');
@@ -17,6 +18,11 @@ function App() {
     setName('aymen');
   }
   return (
+    <>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&#038;display=swap" rel="stylesheet" />
+
     <Router>
     <div className="App">
       <NavBar />
@@ -36,7 +42,9 @@ function App() {
         <Route  path="/librery">
         <Library/>
         </Route>  
-
+        <Route  path="/contact">
+        <Cont/>
+        </Route>  
         <Route  path="/blogs/:id">
         <BlogsDatails/>
         </Route>       
@@ -45,6 +53,7 @@ function App() {
       <Foter></Foter>
     </div>
     </Router>
+    </>
   );
 }
 

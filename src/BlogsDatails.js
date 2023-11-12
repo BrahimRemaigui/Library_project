@@ -20,7 +20,7 @@ const BlogsDatails = () => {
             {blog&&(
                 <article>
                     <h2>The title is :{blog.title}</h2>
-                    <p>Written by {blog.author}</p>
+                    <p>Written by :{blog.author}</p>
                     <div>{blog.body}</div>
                     <button onClick={handleDeleta}>Delete</button>
                 </article>
