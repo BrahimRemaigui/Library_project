@@ -4,6 +4,10 @@ import im3 from './imgs/gallery-03.jpg'
 import im4 from './imgs/gallery-04.png'
 import im5 from './imgs/gallery-05.jpg'
 import im6 from './imgs/gallery-06.png'
+import { IoLogoFacebook } from "react-icons/io";
+import { FaTwitterSquare } from "react-icons/fa";
+import { IoLogoYoutube } from "react-icons/io5";
+import { AiOutlineDoubleRight } from "react-icons/ai";
 import './Foter.css'
 export default function Foter() {
     return (
@@ -15,17 +19,17 @@ export default function Foter() {
             <ul class="social">
               <li>
                 <a href="#" class="facebook">
-                  <i class="fab fa-facebook-f"></i>
+                <IoLogoFacebook className='fb-logo'/>
                 </a>
               </li>
               <li>
                 <a href="#" class="twitter">
-                  <i class="fab fa-twitter"></i>
+                <FaTwitterSquare className='tw-logo'/>
                 </a>
               </li>
               <li>
                 <a href="#" class="youtube">
-                  <i class="fab fa-youtube"></i>
+                <IoLogoYoutube className='tw-logo'/>
                 </a>
               </li>
             </ul>
@@ -35,7 +39,7 @@ export default function Foter() {
           </div>
           <div class="box">
             <ul class="links">
-              <li><a href="#">Important Link 1</a></li>
+            <AiOutlineDoubleRight /> <li> <a href="#">Important Link 1</a></li>
               <li><a href="#">Important Link 2</a></li>
               <li><a href="#">Important Link 3</a></li>
               <li><a href="#">Important Link 4</a></li>
