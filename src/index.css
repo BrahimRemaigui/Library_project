@@ -134,7 +134,7 @@ article{
 }
 .content{
   width: 99%;
-  height: 600px;
+  height: fit-content;
   /*border-radius: 10px;*/
   display: flex;
   flex-direction: row;
