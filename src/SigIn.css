@@ -47,10 +47,19 @@
 @media(max-width:776px)
 {
     .creat_log{
-        width: 450px;
+        width: 500px;
         border-radius: 20px;
+        margin-right: 100px;
+        height: fit-content;
     }
 }
+@media(max-height:400px)
+{
+    .creat_log{
+        display: none;
+    }
+}
+
 .fo-log{
     width: 50%;
     z-index: 1;
