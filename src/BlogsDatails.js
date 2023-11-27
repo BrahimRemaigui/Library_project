@@ -25,9 +25,9 @@ const BlogsDatails = () => {
                     <h5>Abstaract:</h5> 
                     <div className="box"> 
                     <div>{ blog.body}</div>
-                    <img src={imgg}></img>
                     </div>
-                    <button onClick={handleDeleta}>Delete</button>
+                    <img src={imgg}></img>
+                    <button className="Btn_dele" onClick={handleDeleta}>Delete</button>
                 </article>
             )}
         </div>

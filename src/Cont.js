@@ -24,8 +24,18 @@ export default function Cont() {
             Oo continue with
           </div>
           <div className='btnSin'>
-            <p className='pa-p'> Email adress</p>
-            <p style={{paddingTop:'-2px', paddingBottom :'7px' }}>Password</p>
+          <input className='input-text'
+            type="text" 
+            placeholder="Email adress"
+            required 
+          />
+          <div className='ff'></div>
+           <input className='input-text'
+            type="password" 
+            placeholder="Password"
+            required 
+          />
+         
           </div>
           <h5 className='forgot'>Forgot password?</h5>
           <div className='btns'>
