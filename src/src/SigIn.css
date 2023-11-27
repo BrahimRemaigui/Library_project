@@ -1,0 +1,182 @@
+.sign-in{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.forme_si{
+ display: flex;
+}
+ .img_form{
+    border-top-right-radius:0px ;
+    border-top-left-radius:20px ;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 0px;
+    width: 450px;
+    height: 600px;
+    z-index: 100;
+    box-shadow: 0 2px 15px rgba(141, 141, 141, 0.1);
+    z-index: 100;
+    opacity: 0.7;
+}
+@media(max-width:776px)
+{
+    .img_form{
+        display: none;
+    }
+    .creat_log{   
+         border-radius:20px ;
+         
+        }
+    
+}
+.creat_log{
+    border-top-right-radius:20px ;
+    border-top-left-radius:0px ;
+    border-bottom-right-radius: 20px;
+    
+    margin-left: 0px;
+    width: 450px;
+    height: fit-content;
+    min-height: 600px;
+    box-shadow: 0 2px 15px rgb(0 0 0 / 10%);
+    z-index: 1;
+}
+@media(max-width:776px)
+{
+    .creat_log{
+        width: 500px;
+        border-radius: 20px;
+        margin-right: 150px;
+        height: fit-content;
+    }
+}
+@media(max-height:400px)
+{
+    .creat_log{
+        display: none;
+    }
+}
+
+.fo-log{
+    width: 50%;
+    z-index: 1;
+}
+.btns .btn1{
+    margin: 10px auto;
+    border-radius: 15px;
+    background: rgb(228, 225, 225);
+    color: black;
+}
+.btns .btn1:hover{
+    font-size: 21px;
+    background: rgb(210, 208, 208);
+    color: black;
+}
+.creat_log .parag{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(135, 139, 139);
+    position: relative;
+    z-index: 10;
+    background: white;
+}
+.creat_log .parag::before{
+    content: "";
+    width: 80px;
+    height: 2px;
+    background: rgb(135, 139, 139);
+    position: absolute;
+    bottom: 8px;
+    left: 35px;
+}
+
+.creat_log .parag::after{
+    content: "";
+    width: 75px;
+    height: 2px;
+    background: rgb(135, 139, 139);
+    position: absolute;
+    bottom: 8px;
+    right: 35px;
+}
+.btnSin{
+    
+    height: 100px;
+    margin: 0px 30px;
+    border: 2px solid rgb(135, 139, 139);
+    border-radius: 10px;
+    
+}
+
+.btnSin p{
+    text-align: start;
+    padding-left: 5px;
+    color: rgb(135, 139, 139);
+
+}
+.input-text{
+    width: 96%;
+    border: none;
+    padding:5px 3px;
+    margin: 10px 5px; 
+    color: rgb(135, 139, 139);
+    font-size: 14px;
+    outline: none;
+
+}
+.ff{
+ 
+    width: 100%;
+    height: 2px;
+    background: rgb(135, 139, 139);
+    z-index: 10;
+}
+ .pa-p{
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom:1px solid rgb(135, 139, 139) ;
+}
+.forgot{
+    margin: 15px auto;
+    color: black;
+    border-bottom: 1px solid black;
+    width: fit-content;
+}
+
+.btns .btn2{
+    margin: 10px auto;
+    border-radius: 15px;
+    background: rgb(11, 11, 39);
+    color: white;
+}
+.btns .btn2:hover{
+    font-size: 21px;
+    background: rgb(23, 23, 96);
+    color: white;
+}
+.btns .btn3{
+    margin: 10px auto;
+    border-radius: 15px;
+    background: rgb(24, 95, 72);
+    color: rgb(255, 255, 255);
+}
+.btns .btn3:hover{
+    font-size: 21px;
+    background: rgb(29, 117, 89);
+    color: white;
+}
+.logo-bra{
+    width:90px;
+    height: 50px;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+.log-nav{
+    background: black;
+    color: #444;
+    padding: 0px 10px;
+}
