@@ -2,6 +2,7 @@ import './App.css';
 import './NavBar'
 import NavBar from './NavBar';
 import Home from './Home';
+import Sigup from './Sigup';
 import Contact from './Contact';
 import BlogsDatails from './BlogsDatails';
 import Library from './Library'
@@ -48,6 +49,9 @@ function App() {
   
         <Route  path="/login">
         <Cont/>
+        </Route>  
+        <Route  path="/signup">
+        <Sigup/>
         </Route>  
           
         <Route  path="/blogs/:id">

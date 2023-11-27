@@ -1,11 +1,18 @@
 import React from 'react'
 import './SigIn.css'
+
+import { Link } from "react-router-dom";
 import './dis.css'
 import img_li from './imgs/library main.jpg'
 import logo from './imgs/brahimrm-high-resolution-logo-black-transparent.png'
 import { AiFillApple } from "react-icons/ai";
 import { FcGoogle } from "react-icons/fc";
 export default function Cont() {
+const handelSigup =()=>{
+  <Link to="/signup"></Link>
+}
+
+
   return (
     <div className='sign-in'>
       <div className='forme_si'>
@@ -42,7 +49,7 @@ export default function Cont() {
           <button className='btn2'>Connect</button>
           </div>
           <div className='btns'>
-          <button className='btn3'>Sig Up</button>
+          <Link to="/signup"> <button className='btn3'>Sig Up</button></Link> 
           </div>
         </div>
       </div>
