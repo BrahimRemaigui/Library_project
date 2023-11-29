@@ -17,34 +17,15 @@ export default function Foter() {
           <div class="box">
             <h3>Brahim Rm</h3>
             <ul class="social">
-              <li>
-                <a href="#" class="facebook">
-                <IoLogoFacebook className='fb-logo'/>
-                </a>
-              </li>
-              <li>
-                <a href="#" class="twitter">
-                <FaTwitterSquare className='tw-logo'/>
-                </a>
-              </li>
-              <li>
-                <a href="#" class="youtube">
-                <IoLogoYoutube className='tw-logo'/>
-                </a>
-              </li>
+             
             </ul>
             <p class="text">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus nulla rem, dignissimos iste aspernatur
             </p>
           </div>
           <div class="box">
-            <ul class="links">
-            <AiOutlineDoubleRight /> <li> <a href="#">Important Link 1</a></li>
-              <li><a href="#">Important Link 2</a></li>
-              <li><a href="#">Important Link 3</a></li>
-              <li><a href="#">Important Link 4</a></li>
-              <li><a href="#">Important Link 5</a></li>
-            </ul>
+            
+            
           </div>
           <div class="box">
             <div class="line">
@@ -59,7 +40,7 @@ export default function Foter() {
               <i class="fas fa-phone-volume fa-fw"></i>
               <div class="info">
                 <span>+213665830677</span>
-                <span>+213665830677</span>
+                <span>+213665856876</span>
               </div>
             </div>
           </div>

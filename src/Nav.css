@@ -24,6 +24,7 @@
     background-color: #389277;
     color: white;
     font-size: 20px;
+    box-shadow: 0 2px 15px rgba(30, 29, 29, 0.1);
   }
   
   .nav-container {
@@ -33,7 +34,8 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;height:80px;
-    height: fit-content;
+    height: 70px;
+    
   }
   
   .nav-logo {
@@ -177,10 +179,17 @@
  }
 }
 .search{
-  margin-left: 10px;
-  font-size: 35px;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 30px;
   transition: 2s;
 }
 .search:hover{
   color: #ffcc00;
+}
+.inpute-search{
+  height: 28px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
 }

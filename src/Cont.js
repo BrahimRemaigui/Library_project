@@ -3,7 +3,7 @@ import './SigIn.css'
 
 import { Link } from "react-router-dom";
 import './dis.css'
-import img_li from './imgs/library main.jpg'
+import img_li from './imgs/hard.jpg'
 import logo from './imgs/brahimrm-high-resolution-logo-black-transparent.png'
 import { AiFillApple } from "react-icons/ai";
 import { FcGoogle } from "react-icons/fc";
@@ -24,7 +24,7 @@ const handelSigup =()=>{
         <img className='logo-bra' src={logo}></img>
           <h2>Sign in to your account</h2>
           <div className='btns'>
-          <button className='btn1'><FcGoogle/> Sig in with Googlr</button>
+          <button className='btn1'><FcGoogle/> Sig in with Google</button>
           <button className='btn1'><AiFillApple/> Sig in with Apple</button>
           </div>
           <div className='parag'>
@@ -46,7 +46,7 @@ const handelSigup =()=>{
           </div>
           <h5 className='forgot'>Forgot password?</h5>
           <div className='btns'>
-          <button className='btn2'>Connect</button>
+          <button className='btn2'>Continue</button>
           </div>
           <div className='btns'>
           <Link to="/signup"> <button className='btn3'>Sig Up</button></Link> 

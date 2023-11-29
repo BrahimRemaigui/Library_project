@@ -8,6 +8,7 @@ import { useState } from "react";
 const NavBar = () => {
     const[classAdd,setClassAdd]=useState(null)
     const[isLiked,setIsLiked]=useState(true)
+    const[isserch,setIssearch]=useState(false)
     const{varia,setVaria}=useState('')
     const handleClick=()=>{
     }
@@ -16,6 +17,10 @@ const changetrue =()=>{
 }
 const changefalse =()=>{
     setIsLiked(true)
+}
+const changeSearch=()=>{
+    setIssearch(!isserch)
+
 }
     return ( 
         
@@ -28,8 +33,9 @@ const changefalse =()=>{
                <Link to="/"> <li className="nav-item"><a>Home</a> </li> </Link>
                <Link to="/librery"> <li className="nav-item"><a>Blogs</a></li> </Link>
                <Link to="/Creat"><li className="nav-item"><a>New</a></li></Link>
-               <Link to="/contact"><li className="nav-item-log"><a>Log In</a></li></Link>   
-               <FaSearch className="search"/>
+               <Link to="/contact"><li className="nav-item"><a>Log In</a></li></Link>   
+               <FaSearch className="search" onClick={changeSearch}/>
+                 { isserch&& <input type="text" className="inpute-search"/>}
             </ul>
        
         </div>

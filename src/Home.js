@@ -7,7 +7,10 @@ import img3 from './imgs/gallery-06.png'
 import img4 from './imgs/gallery-02.png'
 import img5 from './imgs/gallery-01.png'
 import img6 from './imgs/gallery-03.jpg'
+
+import load from './imgs/loading.jpg'
 import im1 from './imgs/discount.png'
+import './SigIn.css'
 import './dis.css'
 import Blogs from "./Blogs";
 const Home = () => {
@@ -22,21 +25,21 @@ const Home = () => {
     return (
         <div className='Home'>
             <div className="content">
-                <div className="witing">
+                <div className="witing">  
                     <h2>welcom to you in the web site of brahim library </h2>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam odio magni eligendi. Voluptatibus aliquid doloremque quae porro beatae consequatur deserunt! Quaerat, obcaecati molestias explicabo, perspiciatis soluta sequi odio aliquam deleniti sit animi voluptatem earum. Iste explicabo dolor, reiciendis ducimus incidunt minus delectus velit aliquam assumenda sapiente obcaecati, ratione, facilis qui
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam odio magni eligendi. Voluptatibus aliquid doloremque quae porro beatae consequatur deserunt! Quaerat, obcaecati molestias explicabo, perspiciatis soluta sequi odio aliquam deleniti sit animi voluptatem earum. Iste explicabo dolor, reiciendis ducimus incidunt minus delectus velit aliquam assumenda sapiente obcaecati, ratione, facilis qui
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam odio magni eligendi. Voluptatibus aliquid doloremque quae porro beatae consequatur deserunt! Quaerat, obcaecati molestias explicabo, perspiciatis soluta sequi odio aliquam deleniti sit animi voluptatem earum. Iste explicabo dolor, reiciendis ducimus incidunt minus delectus velit aliquam assumenda sapiente obcaecati, ratione, facilis qui?</p>
                 </div>
+                <img src={load}></img>
             </div>
-            <div className="Landing">
+            {/*<div className="Landing">
                 <img src={img}></img>
                 <img src={img2}></img>
                 <img src={img3}></img>
                 <img src={img4}></img>
                 <img src={img5}></img>
                 <img src={img6}></img>
-            </div>
+             </div>*/}
             <div className=''>
                 <div class="discount" >
                     <div class="image">
@@ -47,6 +50,7 @@ const Home = () => {
                                 ratione provident necessitatibus, cumque delectus commodi fuga praesentium beatae. Totam vel similique
                                 laborum dicta aperiam odit doloribus corporis.
                             </p>
+                           
                             <img src={im1} alt="" />
                         </div>
                     </div>
