@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useHistory } from "react-router-dom";
+import imgee from './imgs/cover/sincerely.jpg'
 const Contact = () => {
     const [title, setTitle] = useState('');
     const [body, setBody] = useState('');
@@ -22,33 +23,36 @@ const Contact = () => {
     }
   
     return (
-      <div className="create">
+      <div className="">
         
-        <form onSubmit={handleSubmit}>
-        <h2>Add a New Blog</h2>
-          <input 
-            type="text" 
-            placeholder="The Title"
-            required 
-            value={title}
-            onChange={(e) => setTitle(e.target.value)}
-          />
-          <textarea
-            required
-            placeholder="The Abstract"
-            value={body}
-            onChange={(e) => setBody(e.target.value)}
-          ></textarea>
-          <select
-            value={author}
-            onChange={(e) => setAuthor(e.target.value)}
-          >
-            <option value="barhim">barhim</option>
-            <option value="aymen">aymen</option>
-          </select>
-          <button >Add Blog</button>
-        </form>
-      </div>
+          <div className="create">
+            <form onSubmit={handleSubmit}>
+            <h2>Add a New Blog</h2>
+              <input 
+                type="text" 
+                placeholder="The Title"
+                required 
+                value={title}
+                onChange={(e) => setTitle(e.target.value)}
+              />
+              <textarea
+                required
+                placeholder="The Abstract"
+                value={body}
+                onChange={(e) => setBody(e.target.value)}
+              ></textarea>
+              <select
+                value={author}
+                onChange={(e) => setAuthor(e.target.value)}
+              >
+                <option value="barhim">barhim</option>
+                <option value="aymen">aymen</option>
+              </select>
+              <button >Add Blog</button>
+            </form>
+          </div>
+       
+        </div>
     );
 }
  
