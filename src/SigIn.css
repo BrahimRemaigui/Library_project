@@ -6,6 +6,7 @@
     gap: 20px;
     justify-content: center;
     align-items: center;
+    margin-top: 10px;
 }
 .forme_si{
  display: flex;
@@ -16,6 +17,7 @@
     border-top-left-radius:20px ;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 0px;
+    margin-top: -20px;
     width: 450px;
     height: 600px;
     z-index: 100;
@@ -38,7 +40,7 @@
     border-top-right-radius:20px ;
     border-top-left-radius:0px ;
     border-bottom-right-radius: 20px;
-    
+    margin-top: -20px;
     margin-left: 0px;
     width: 450px;
     height: fit-content;
@@ -162,12 +164,12 @@
 .btns .btn3{
     margin: 10px auto;
     border-radius: 15px;
-    background: rgb(24, 95, 72);
+    background: black;
     color: rgb(255, 255, 255);
 }
 .btns .btn3:hover{
     font-size: 21px;
-    background: rgb(29, 117, 89);
+    background: rgb(6, 29, 22);
     color: white;
 }
 .logo-bra{

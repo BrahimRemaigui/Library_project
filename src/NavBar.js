@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import im  from './imgs/menu_open_FILL0_wght400_GRAD0_opsz24.png'
 import { BiAlignRight } from "react-icons/bi";
 import { FaSearch } from "react-icons/fa";
-import logo from './imgs/with-trans.png'
+import logo from './imgs/brahimrm-logo-black.png'
 import './Nav.css'
 import { useState } from "react";
 const NavBar = () => {
@@ -35,7 +35,7 @@ const changeSearch=()=>{
                <Link to="/Creat"><li className="nav-item"><a>New</a></li></Link>
                <Link to="/contact"><li className="nav-item"><a>Log In</a></li></Link>   
                <FaSearch className="search" onClick={changeSearch}/>
-                 { isserch&& <input type="text" className="inpute-search"/>}
+                 { isserch&& <input type="search" className="inpute-search"/>}
             </ul>
        
         </div>

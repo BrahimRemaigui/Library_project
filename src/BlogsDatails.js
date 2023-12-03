@@ -20,13 +20,19 @@ const BlogsDatails = () => {
             {error&&<div>{error}</div>}
             {blog&&(
                 <article>
-                    <h2>The title is :{blog.title}</h2>
-                    <h5>Written by :{blog.author}</h5>
-                    <h5>Abstaract:</h5> 
+                    <div className="box-blog">
+                        <div className="witning">
+                            <h2>The title is :{blog.title}</h2>
+                            <h5>Written by :{blog.author}</h5>
+                            <h5>Abstaract:</h5> 
+                        </div>
+                        <img className="image-articile" src={imgg}></img>
+                    </div>
+
                     <div className="box"> 
                     <div>{ blog.body}</div>
                     </div>
-                    <img src={imgg}></img>
+                    
                     <button className="Btn_dele" onClick={handleDeleta}>Delete</button>
                 </article>
             )}

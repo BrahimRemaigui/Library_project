@@ -8,10 +8,11 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .content img {
+    /*animation: App-logo-spin infinite 20s linear;*/
   }
 }
+
 
 .App-header {
   background-color: white;
@@ -30,11 +31,20 @@
 
 
 @keyframes App-logo-spin {
-  from {
+  0% 
+  ,25% {
     transform: rotate(0deg);
   }
-  to {
-    transform: rotate(360deg);
+  25%,
+  50% {
+    transform: rotate(30deg);
+  }
+  50%,75%{
+    transform: rotate(0deg);
+  }
+  75%,
+  100% {
+    transform: rotate(30deg);
   }
 }
 .blog-preview{
@@ -77,9 +87,9 @@
   background-color: white;
   color: black;
   font-size: 40px;
-  letter-spacing: -2px;
-  margin: 0;
-  padding-top: 40px;
+  letter-spacing: -1px;
+  margin: 11px;
+  padding-top: 30px;
 }
 
 
